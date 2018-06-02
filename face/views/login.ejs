@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>faceGUI</title>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,100" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/login.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+			<div id="content">
+				<!--<h2><span id="logo-1">plant<i class="fa fa-envira" aria-hidden="true"></i></span>ID admin</h2>-->
+				<form action="/login" method="post">
+					<div>
+						<label>Username:</label>
+						<input type="text" name="username"/>
+					</div>
+					<div>
+						<label>Password:</label>
+						<input type="password" name="password"/>
+					</div>
+					<div>
+						<input class="btn btn-success" type="submit" value="Log In"/>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

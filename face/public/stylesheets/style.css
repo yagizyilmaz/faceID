@@ -1,0 +1,94 @@
+body {
+  padding-top: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+.navbar-default {
+	background: black;
+}
+
+#logo-1 {
+	color: white;
+}
+
+#attrButton {
+	color: white;
+}
+
+#box {
+	background-color:rgba(255,255,255,.8);
+	border-bottom: 1px solid black;
+}
+
+#coll {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 80%;
+	margin: auto;
+}
+
+button {
+	margin: 3px;
+	border: 1px solid black;
+	color: black;
+}
+
+#results-container {
+	margin-top: 30px;
+	background: white;
+	border: 1px solid black;
+}
+
+#move {
+	background: purple;
+	border: none;
+	color: white;
+	padding: 10px;
+	display: block;
+	margin: auto;
+	width: 50%;
+}
+
+#results-header {
+	text-align: center;
+}
+
+
+#result-box-1 {
+	width: 48%;
+	float: left;
+	min-height: 1px;
+}
+
+#result-box-2 {
+	width: 48%;
+	float: right;
+	min-height: 1px;
+}
+
+.photo img {
+	width: 100%;
+}
+
+.photo {
+	margin-bottom: 10px;
+	width: 100px;
+
+}
+
+#result-box-1-tag {
+	float: left;
+}
+
+#result-box-2-tag {
+	float: right;
+}
+
+.selected-img {
+    border: 4px solid yellow;
+    box-shadow: 0 4px 3px rgba(0,0,0,0.25),0 8px 13px rgba(0,0,0,0.25),0 18px 23px rgba(0,0,0,0.25);
+}

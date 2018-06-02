@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>faceGUI</title>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,100" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+	<script src="/javascripts/jquery-3.2.1.min.js"></script>
+	<script src="/javascripts/masonry.pkgd.min.js"></script>
+	<script src="/javascripts/imagesloaded.pkgd.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid col-lg-offset-1 col-lg-10">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href=""><span id="logo-1">faceGUI</a>
+					<!--<p class="navbar-text hidden-xs">Plant Identification System by Sabanci University</p>-->
+				</div>
+			<!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a data-toggle="modal" data-target="#help-box" href="">HELP</a></li>
+					<li><a data-toggle="modal" data-target="#about-box" href="">ABOUT</a></li>
+				</ul>
+			</div>-->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="nav navbar-nav">
+					<li><a id="attrButton" href="#">ATTRIBUTES</a></li>
+				</div>
+				<ul class="nav navbar-nav navbar-right">
+					<!--<li><a href="/logout">LOGOUT</a></li>-->
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="attributes">
+		<div id="box">
+			<div id="coll"></div>
+		</div>
+	</div>
+	<div class="container-fluid" id="main">
+		<div class="col-lg-12 col-md-12 col-sm-12">
+			<div class="jumbotron" id="results-container">
+				<h4 id="results-header">Select an attribute to edit.</h4>
+				<div id="results-photo">
+					<div class="row">
+						<button id="move">Move Selected</button>
+					</div><br>
+					<div class="row">
+						<div id="result-box-1"></div>
+						<div id="result-box-2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="/javascripts/index.js"></script>
+</body>
+</html>
